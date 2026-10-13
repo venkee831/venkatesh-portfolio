@@ -1,120 +1,54 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | Venkatesh</title>
+    <title>My Projects - Venkatesh</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <nav>
-        <h2 class="logo">Venkatesh.R</h2>
+    <header>
+        <nav>
+            <h2>Venkatesh</h2>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="biodata.html">Bio-data</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Resume & Contact</a></li>
-        </ul>
+    <section class="projects">
+        <h1>My Projects</h1>
 
-        <button id="themeBtn" aria-label="Toggle dark mode">🌙</button>
-    </nav>
-</header>
+        <div class="project-card">
+            <h2>Personal Portfolio</h2>
+            <p>A simple website created using HTML and CSS.</p>
+        </div>
 
-<main class="container">
+        <div class="project-card">
+            <h2>Secure Text Transfer</h2>
+            <p>
+                A project based on Diffie-Hellman Key Exchange
+                for secure text transfer using cloud technology.
+            </p>
+        </div>
 
-    <section class="page-heading">
-        <p class="tag">MY TECHNICAL JOURNEY</p>
-        <h1>My Skills & Projects</h1>
-        <p>Technologies I am learning and projects I have worked on.</p>
-    </section>
-
-    <section>
-        <h2 class="section-title">Technical Skills</h2>
-
-        <div class="grid">
-            <div class="card">
-                <h3>HTML</h3>
-                <p>Creating the structure of web pages.</p>
-            </div>
-
-            <div class="card">
-                <h3>CSS</h3>
-                <p>Designing websites with colors and layouts.</p>
-            </div>
-
-            <div class="card">
-                <h3>JavaScript</h3>
-                <p>Adding basic interactive features to websites.</p>
-            </div>
-
-            <div class="card">
-                <h3>React JS</h3>
-                <p>Learning component-based web development.</p>
-            </div>
-
-            <div class="card">
-                <h3>SQL</h3>
-                <p>Learning database queries and data management.</p>
-            </div>
-
-            <div class="card">
-                <h3>Programming</h3>
-                <p>Practising programming and problem solving.</p>
-            </div>
+        <div class="project-card">
+            <h2>Cricket Academy Website</h2>
+            <p>
+                A basic website created using HTML and CSS
+                with a sliding image header.
+            </p>
         </div>
     </section>
 
-    <section>
-        <h2 class="section-title">My Projects</h2>
+    <footer>
+        <p>© 2026 Venkatesh | My Portfolio</p>
+    </footer>
 
-        <div class="grid">
-            <div class="card project-card">
-                <span class="number">01</span>
-                <h3>Cricket Academy Website</h3>
-
-                <p>
-                    A website created for a cricket academy using
-                    HTML and CSS, with a header and sliding images.
-                </p>
-
-                <p class="tech">HTML | CSS</p>
-            </div>
-
-            <div class="card project-card">
-                <span class="number">02</span>
-                <h3>Secure Text Transfer</h3>
-
-                <p>
-                    An academic project about secure text transfer
-                    using Diffie-Hellman key exchange and cloud technology.
-                </p>
-
-                <p class="tech">Cryptography | Web Technology</p>
-            </div>
-
-            <div class="card project-card">
-                <span class="number">03</span>
-                <h3>Personal Portfolio Website</h3>
-
-                <p>
-                    A personal website created to display my
-                    introduction, technical skills, projects and resume.
-                </p>
-
-                <p class="tech">HTML | CSS | JavaScript</p>
-            </div>
-        </div>
-    </section>
-
-</main>
-
-<footer>
-    <p>&copy; 2026 Venkatesh | My Portfolio</p>
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
